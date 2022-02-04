@@ -1,0 +1,9 @@
+D:\studyc#\data\DATA_CURD\DATA_CURD\bin\Debug\DATA_CURD.exe.config
+D:\studyc#\data\DATA_CURD\DATA_CURD\bin\Debug\DATA_CURD.exe
+D:\studyc#\data\DATA_CURD\DATA_CURD\bin\Debug\DATA_CURD.pdb
+D:\studyc#\data\DATA_CURD\DATA_CURD\obj\Debug\DATA_CURD.csproj.SuggestedBindingRedirects.cache
+D:\studyc#\data\DATA_CURD\DATA_CURD\obj\Debug\DATA_CURD.Properties.Resources.resources
+D:\studyc#\data\DATA_CURD\DATA_CURD\obj\Debug\DATA_CURD.csproj.GenerateResource.cache
+D:\studyc#\data\DATA_CURD\DATA_CURD\obj\Debug\DATA_CURD.csproj.CoreCompileInputs.cache
+D:\studyc#\data\DATA_CURD\DATA_CURD\obj\Debug\DATA_CURD.exe
+D:\studyc#\data\DATA_CURD\DATA_CURD\obj\Debug\DATA_CURD.pdb

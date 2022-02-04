@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace DATA_CURD
 {
@@ -14,9 +11,25 @@ namespace DATA_CURD
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            ITodoRepository _repository = new TodoRepository();
+            List<PLU> PLUs = new List<PLU>();
+            PLUs = _repository.GetAll();
+
+            foreach (PLU plu in PLUs)
+            {
+                Console.WriteLine($"Barcode: {plu.Barcode}, Name: {plu.Name}, Price: {plu.Price}");
+            }
+
+            PLU pLU = new PLU { Name = "leeky", Price = 999_999_999 };
+            _repository.Add(pLU);
+
+            PLUs = _repository.GetAll();
+            foreach (PLU plu in PLUs)
+            {
+                Console.WriteLine($"Barcode: {plu.Barcode}, Name: {plu.Name}, Price: {plu.Price}");
+            }
+
+
         }
     }
 }
